@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yellow_systems/static/css/main.d03427a2.css",
-    "main.js": "/yellow_systems/static/js/main.9603c488.js",
+    "main.js": "/yellow_systems/static/js/main.d6b2d2f9.js",
     "static/media/1174531.jpg": "/yellow_systems/static/media/1174531.2f580f90b59166a87e3f.jpg",
     "static/media/GoogleSans-Regular.woff": "/yellow_systems/static/media/GoogleSans-Regular.af22ed9938d1f3ec346c.woff",
     "static/media/GoogleSans-Medium.woff": "/yellow_systems/static/media/GoogleSans-Medium.20a76f9128def8ff6c4e.woff",
@@ -10,10 +10,10 @@
     "static/media/GoogleSans-Bold.woff2": "/yellow_systems/static/media/GoogleSans-Bold.296439eb0015e851a1a9.woff2",
     "index.html": "/yellow_systems/index.html",
     "main.d03427a2.css.map": "/yellow_systems/static/css/main.d03427a2.css.map",
-    "main.9603c488.js.map": "/yellow_systems/static/js/main.9603c488.js.map"
+    "main.d6b2d2f9.js.map": "/yellow_systems/static/js/main.d6b2d2f9.js.map"
   },
   "entrypoints": [
     "static/css/main.d03427a2.css",
-    "static/js/main.9603c488.js"
+    "static/js/main.d6b2d2f9.js"
   ]
 }
