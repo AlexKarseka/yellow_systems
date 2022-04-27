@@ -30,7 +30,7 @@ const App = () => {
     if (!search.results) return null
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className='main_wrapper'>
                 <Header search={setSearchValue}/>
                 <NavMenu/>
