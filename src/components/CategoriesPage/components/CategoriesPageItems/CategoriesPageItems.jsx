@@ -19,9 +19,12 @@ const CategoriesPageItems = ({logo, alt, name, year, country, genre, link, id, f
 
     return (
         <div className={css.card} onClick={addArray}>
-            <img className={css.logo}
-                 src={logo}
-                 alt={alt}/>
+            <NavLink to={`/list/${link}`}>
+                <img className={css.logo}
+                     src={logo}
+                     alt={alt}/>
+            </NavLink>
+
 
             <div className={css.centre}>
                 <NavLink to={`/list/${link}`}>
