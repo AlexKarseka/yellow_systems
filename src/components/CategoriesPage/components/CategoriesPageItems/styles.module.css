@@ -1,0 +1,73 @@
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 24px 20px;
+    border-radius: 8px;
+    transition-timing-function: ease-out;
+    transition-duration: .15s;
+    transition-property: background-color;
+    cursor: pointer;
+}
+
+.card:before {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 20px;
+    left: 20px;
+    display: block;
+    width: calc(100% - 40px);
+    height: 1px;
+    content: "";
+    background: rgba(0, 0, 0, 0.17);
+    transition: opacity .15s ease-out;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 64px;
+    min-width: 64px;
+    height: 96px;
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.centre {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.centre a {
+    color: #220e07;
+}
+
+.centre_wrapper {
+    display: flex;
+}
+
+.year {
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+
+.country,
+.genre {
+    margin-right: 8px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.genre {
+    display: flex;
+}

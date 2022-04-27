@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.7s ease 0s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 100%;
+    height: 250px;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.no_favorite {
+    margin: 102px auto;
+    font-size: 50px;
+}

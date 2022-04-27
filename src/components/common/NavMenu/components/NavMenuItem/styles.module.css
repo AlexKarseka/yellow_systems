@@ -1,0 +1,29 @@
+.menu_items{
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 6px 10px;
+    margin-bottom: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	background-color: #ffae00;
+	color: #172B4D;
+	box-shadow: 0 3px 0 rgb(141, 97, 1);
+    transition: background-color 0.5s ease 0s;
+    position: relative;
+    top: 0;
+	font-weight: 700;
+}
+
+.menu_items:hover{
+	background-color: rgba(255, 174, 0, 0.85);
+}
+
+.active {
+	top: 3px;
+    box-shadow: 0 1px 0 rgb(141, 97, 1);
+	background-color: #ff9100;
+}

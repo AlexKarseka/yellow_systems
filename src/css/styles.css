@@ -1,0 +1,28 @@
+@import url('./normalize.css');
+@import url('./fonts.css');
+
+body {
+    margin: 0 auto 30px auto;
+    background: url("../stylesSrc/img/1174531.jpg");
+    background-size: cover;
+    color: #220e07;
+    font-family: 'GoogleSans', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.main_wrapper {
+    display: grid;
+    grid-template-areas:
+	'head head'
+	'nav cont';
+    grid-template-rows: 55px 1fr;
+    grid-template-columns: 6fr 15fr;
+    grid-row-gap: 16px;
+}
+
+.categories_content {
+    grid-area: cont;
+    margin: 0 150px 0 16px;
+}
+
