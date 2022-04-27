@@ -1,4 +1,4 @@
-import {Route, BrowserRouter} from 'react-router-dom';
+import {Route, BrowserRouter, HashRouter} from 'react-router-dom';
 import {Header} from "./Header";
 import {NavMenu} from "./common/NavMenu";
 import {CategoriesPage} from "./CategoriesPage";
@@ -30,7 +30,7 @@ const App = () => {
     if (!search.results) return null
 
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <div className='main_wrapper'>
                 <Header search={setSearchValue}/>
                 <NavMenu/>
@@ -58,7 +58,7 @@ const App = () => {
                     <Pagination state={setPage} props={count}/>
                 </div>
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
